@@ -6,7 +6,8 @@ function estiloDiv() {
     divBoton.style.backgroundColor = "green";
 }
 
-function mostrarAlertaDiv() {
+function mostrarAlertaDiv(event) {
+    event.stopPropagation();
     alert("Hola! Soy el div");
 }
 
