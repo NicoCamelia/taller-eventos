@@ -6,11 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="mostrarAlerta()">Saludar</button>
+    <div id="botonAlerta">
+    <button onclick="mostrarAlerta(); estiloDiv();">Saludar</button>
     <script>
         function mostrarAlerta() {
             alert("Hola!");
         }
     </script>
+    <script src="eventos.js"></script>
+    </div>
 </body>
 </html>
